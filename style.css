@@ -66,32 +66,32 @@ body {
 }
 
 .hero-content {
-  padding-top: 40px;
+  padding-top: 28px;
 }
 
 .badge {
   display: inline-block;
-  padding: 6px 14px;
+  padding: 5px 12px;
   border-radius: 999px;
   background: rgba(56, 189, 248, 0.12);
   color: var(--accent);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  margin-bottom: 16px;
-}
-
-h1 {
-  font-size: clamp(1.5rem, 3vw, 2.1rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
   margin-bottom: 12px;
 }
 
+h1 {
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+}
+
 .subtitle {
-  max-width: 660px;
+  max-width: 620px;
   color: var(--muted);
-  font-size: 1.1rem;
-  margin-bottom: 28px;
+  font-size: 0.98rem;
+  margin-bottom: 22px;
 }
 
 .cta-row {
